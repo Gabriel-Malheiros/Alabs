@@ -1,0 +1,242 @@
+/* importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	height: 100vh;
+	box-sizing: content-box;
+	background-color: #2b2d42;
+	color: white;
+	font-family: "Inter", sans-serif;
+}
+
+/* Começo do CSS Header */
+header {
+	background-color: black;
+	height: 70px;
+}
+
+.logo {
+	margin: 0 0 0 50px;
+	font-size: 32px;
+}
+
+.lista {
+	margin: 0 50px 0 0;
+}
+
+.items-lista-link {
+	display: inline-block;
+	padding: 25px;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.items-lista-link:hover {
+	transition: 1s;
+	display: block;
+	background-color: #6E44FF;
+	color: white;
+}
+/* fim do CSS Header */
+
+/* Estilizando o hero */
+.hero {
+	background-image: url(../assets/Projeto_lucas.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: static;
+	height: 858px;
+}
+
+.inicio {
+	max-width: 800px;
+	margin-bottom: 230px;
+	text-align: center;
+}
+
+.slogan {
+	font-size: 80px;
+}
+
+.slogan-paragrafo {
+	margin-top: 5px;
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+.slogan-paragrafo-lista{
+	margin-top: 50px;
+}
+
+.slogan-paragrafo-link-integrantes {
+	border: white solid 2px;
+	color: white;
+	font-size: 24px;
+	padding: 25px 130px 25px 130px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.slogan-paragrafo-link-integrantes:hover {
+	transition: 1.5s;
+	background-color: white;
+	color: #6E44FF;
+	border: white solid 2px;
+}
+
+.slogan-paragrafo-link-portifolio {
+	background-color: #6E44FF;
+	color: white;
+	font-size: 24px;
+	padding: 25px 130px 25px 130px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.slogan-paragrafo-link-portifolio:hover {
+	transition: 1.5s;
+	background-color: white;
+	color: #6E44FF;
+}
+
+.cards {
+	margin-top: 30px;
+	margin-bottom: 144px;
+}
+.cards-div{
+	width: 1600px;
+}
+
+.apresentacao-portifolio{
+	text-align: center;
+	font-size: 64px;
+	margin-top: 50px;
+}
+
+.cards-item {
+	background-color: #1e1f28;
+	width: 500px;
+	height: 650px;
+	color: white;
+	align-items: baseline;
+	margin-top: 20px;
+	box-sizing: content-box;
+	border-radius: 10px;
+}
+
+.cards-div-item-imagem {
+	width: 500px;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.titulo-card {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 24px;
+	padding: 20px;
+	font-weight: 500;
+}
+
+.descricao-card {
+	padding: 10px 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.link-card {
+	margin-top: 20px;
+	padding: 20px 50px 20px 50px;
+}
+
+.link-portifolio {
+	background-color: #6E44FF;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	width: 500px;
+	padding: 20px 40px 20px 40px;
+}
+
+.link-portifolio:hover {
+	transition: 0.5s;
+	background-color: white;
+	color: #6E44FF;
+}
+
+/* Estilizando a seção integrantes */
+
+.integrantes {
+	padding-top: 50px;
+	background-image: linear-gradient(to left, #2b2d42,#3C096C, #7209B7, #10002b);
+	background-size: 500%, 100%;
+	animation: degrade-animado 3s infinite alternate;
+	height: 800px;
+	padding-bottom: 100px;
+}
+
+/* Animação do gradiente de integrantes */
+@keyframes degrade-animado {
+	0% {
+		background-position: 0%;
+	}
+
+	100% {
+		background-position: 100%;
+	}
+}
+
+.titulo-integrantes {
+	font-size: 64px;
+	text-align: center;
+}
+
+.integrante {
+	background-color: rgb(255, 255, 255);
+	color: black;
+	width: 850px;
+	margin-top: 50px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.imagem-do-integrante {
+	width: 150px;
+}
+
+.nome-integrante {
+	font-size: 24px;
+	font-weight: bold
+}
+
+.apresentacao-do-integrante {
+	font-size: 18px;
+}
+
+.empresa {
+	height: 600px;
+}
+
+.logo-secaoEmpresa {
+	height: 500px;
+	width: 500px;
+
+}
+
+.descricao-empresa
+
+.tituloSecao-empresa {
+	font-size: 64px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.sobre-a-empresa {
+	width: 800px;
+	font-size: 18px;
+	text-align: center;
+}
